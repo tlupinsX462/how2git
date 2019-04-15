@@ -1,0 +1,184 @@
+my git command notes/instructions:
+
+ 
+
+git commands:
+
+ 
+
+-git init.
+
+takes the current folder and creates a git repository in place; the new repo now exists only in the
+
+locations it was created this does not create a remote repo. use git clone instead assuming that
+
+the remote git status- examines the repository and compares its contents to the local branch
+
+ 
+
+-git status 
+
+ report summary of changes between working files and local repository including
+
+staged/unstage/modified files
+
+ 
+
+-git add
+
+stage files for commit. this applies to untracked files (not in the repository) and modified files (in the repository but not     staged for commit yet).
+
+ 
+
+-git remove
+
+<fileNmae> will revert the file back to untracked, reverse of add
+
+ 
+
+-git commit
+
+ use this form> git commit [filename] -m "this is a message" in order to avoid using vi
+
+without including [-m "message"] in the command line, will bring up the vi editor. for vi >> type
+
+ your message with carriage      returns as needed then press the ESC key and the mode will change
+
+to command. the command input appears at the bottom of the      window. type :x to save and exit.
+
+the git command line should update with file commit success message
+
+just use this to avoid the vi editor>
+
+use this form > git commit <fileName> -m "this is my message"
+
+ 
+
+-git push origin
+
+use this form for now -probably does not work as intended in every situation
+
+go to the reposity url and use the clone button to copy the SSH address
+
+paste this into the push command git push git@github.ford.com:TLUPINS1/bodyModules.git
+
+substitute your repository name  [ git push git@"yourGit.com: USERNAME/repoName.git
+
+git push git@github.com:tlupinsX462/how2git.git
+Git push https://github.com/tlupinsX462/how2git/tree/develop 
+
+ 
+
+for all commands:
+
+ 
+
+-use the -h after a command to show a man page of that command
+
+ 
+
+ 
+
+things needed:
+
+ 
+
+-how to create a remote from scratch, before using git init to create a local repo
+
+ 
+
+ 
+
+ 
+
+what is git:
+
+ 
+
+-a version control system
+
+-a distributed vcs (verses a centralized vcs)
+
+-git does not lock files
+
+-many copies of the repository are created on local computers and are periodcally pushed up to the "origin"/master/remote    repository
+
+-you can edit files and update your local repository even if you are working offline
+
+-all local repositories can completely rebuild the remote master repository to the point the local repos were last updated from   origin
+
+ 
+
+git the facts:
+
+ 
+
+-most git commands target the local repository, add and commit refer to the local repository. so does status
+
+-git command that interact with the remote are push and pull. use the option [origin] to specify the remote repository
+
+-when you clone a repository you create a working copy of the remote repo
+
+-commands that operate on remote object: pull;push
+
+ 
+
+ 
+
+git to know:
+
+ 
+
+-untracked=files that are not in the repository
+
+-unmodified=files that match the version in the repository
+
+-staged=files that have been added (git add) will update the repo on the next commit. if a file was new or changed more then one    and added each time then a commit of the file will update both versions in the repo
+
+-unmodified=files that match version in the local repo/branch
+
+ 
+
+ 
+
+git out of jail:
+
+ 
+
+-git push --set-upstream origin development #this pushes a branch that does not exist in the remote/origin up to the remote
+
+next time create the branch at the remote first and then do a pull (I think that would do it)
+
+ 
+
+ 
+
+fun stuff:
+
+-links
+
+http://nxt.flotsam.nl/my-git
+
+http://cutecoder.org/software/git-server-network-drive/
+
+https://community.wd.com/t/app-goodsync-for-wd-my-cloud-backup-and-file-synchronization/173984
+
+ 
+
+ 
+
+try things:
+
+ 
+
+-branching
+
+ git branch -lists the branches in repository and indicates which branch is current checked out to local filesystem
+
+git checkout <branchName> -this checks out the branch "branchName" from the local repository and loads it to your working  directory
+
+ 
+
+git-http-push - Push objects over HTTP/DAV to another repository
+
+ 
