@@ -1,0 +1,62 @@
+-to delete a repository
+
+ 
+
+-navigate to the repository page and click the settings tab,scroll to the bottom of the page to a section named "danger zone". a button to delete the repository is located in this section
+
+ 
+
+ 
+
+-how to create a new repository with Github, clone the repo and checkout a branch:
+
+ 
+
+ 
+
+1. from the github member home page (or the main page of group that hosts repositories)
+
+click on the reopositories tab along the top of page. a list should be shown with links
+
+ 
+
+2. a search field is shown under the tabs bar, click the "new" button on the right
+
+
+ 3. enter a name and description for the repository and check the box to initialize this repository  with a README. click "create repository" button (?? click something??)
+
+ 
+
+4. a summary page of the repository is shown with four tabs: commit;branch;releases;contributor
+
+just below the commit tab is a button title "branch:master" . click the button to activate a drop  down
+
+5. the branch dropdown lists the master branch and a blank field to create a branch
+
+6. in the "find or create a branch" field, type a name for a new branch and click the "create  branch: development from 'master' " button
+
+ 
+
+7. the branches tab shows that there are 2 branches. and the button below the commit tab is now  labeled branch:development. click the branch button and choose master. summary page shows master  branch
+
+ 
+
+8. from the github page of your newly created repository, click the code tab and click the green  "clone or download" dropdown button on the right. the title of the dropdown should be "clone with   SSH". if it doesn't then click the "use SSH" hypertext on the right side of the dropdown. when the   drop shows "clone with SSH", click the clipboard icon to the right of the address window to copy  the  address to clone from
+
+ 
+
+9. open file explorer and navigate to your software development main folder. all folders under this  location should contain repositry folders. from this folder, open a git bash command line window
+
+ 
+
+10. type n the git command "git clone" and then paste the address after the command
+
+ 
+
+11. press return and see the message "cloning into [your_repository]. the new repository is cloned
+
+ 
+
+12. change directory to the new repository folder. the git bash window should indicate that the master branch is checked out. type the command git checkout development. the development branch is now checked out
+
+ 
