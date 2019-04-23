@@ -50,6 +50,28 @@ Well I\'92ll be dammed! I created a new branch with the GitHub app and it checko
 Ok adding this file which is in a different folder right now. Going to move it to GithubDesktop repo folder. I can see a problem right now>the file is an rtf. Probably will need to change extension\
 Let\'92s try it first\
 \
+Well I\'92ll be dammed! I created a new branch with the GitHub app and it checkout the brand in my local repository as shown in the command line terminal\
+\
+Ok adding this file which is in a different folder right now. Going to move it to GithubDesktop repo folder. I can see a problem right now>the file is an rtf. Probably will need to change extension\
+Let\'92s try it first.\
+Lost some notes in the process. Try to add them back now\
+\
+GitHub has problems with Mac. And also has problems can be overcome though\
+\
+Git hub desktop app can\'92t launch any editor except atom. So were stuck with it\
+Git hub desktop app can\'92t can\'92t use textedit\
+Text edit can save as .txt\
+\
+Choices: use GitHub desktop and atom or use command line and GitHub.com\
+There is a command line tool that can be installed from from GitHub desktop app. It\'92s ok but not as good as git bash which isn\'92t available for Mac. Found one repo says it is git bash for Mac but it doesn\'92t work for me\
+GitHub.com and app has issues with displaying special characters in textedit created files.\
+Probably why GitHub app doesn\'92t see text edit as compatible\
+Found web video to make textedit save as .txt file. Couldn\'92t get Ito work for me\
+Textedit is out because GitHub just won\'92t work with it.\
+\
+Need to add a file with setup instructions for Ryan and Michael\
+Need to install atom to get this to work. Hope there is Mac version or we may be fucked\
+Save
 \
 \
 \
