@@ -1,0 +1,19 @@
+the rules for our repositories
+
+stick to these procedures for working with files in repositories
+things can get messed up quick in git so stick to these procedures
+
+-if you need to create a new repository, follow the instructions in the file how2git repo /createRepo 
+
+-if you need to create a new file for a repository, follow these steps:
+1. log on to github.com and navigate to the repository
+2. checkout the development branch. find the link to the repository when you login to github.com and click on it
+3. click the
+4. when you are done editing the new file go to the bottow of the editing window and make sure the 
+   "commit directly to development branch" button is selected. click "commit new file"
+
+
+we will be using github.com, github desktop application and git command line -terminal in mac
+if git bash is mentioned in instruction, that is terminal in Mac
+
+clone the repository to your machine, follow steps in the file gitCommands
